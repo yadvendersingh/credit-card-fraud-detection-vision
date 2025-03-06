@@ -41,22 +41,22 @@ This project aims to detect credit card fraud using computer vision techniques. 
 
 ## Usage
 
-1. **Preprocess the Dataset**:
-    - Run [dataset.ipynb](http://_vscodecontentref_/5) to preprocess the dataset and generate spectrograms.
+1. **Preprocess and Oversample the Dataset**:
+    - Run [Oversample_CSV.ipynb](https://github.com/yadvendersingh/credit-card-fraud-detection-vision/blob/main/Oversample_CSV.ipynb) to preprocess the dataset and balance the classes.
 
-2. **Oversample the Data**:
-    - Run [oversample.ipynb](http://_vscodecontentref_/6) to balance the dataset using ADASYN.
+2. **Convert to Spectrogram**:
+    - Run [CSV_To_Spectrogram.ipynb](https://github.com/yadvendersingh/credit-card-fraud-detection-vision/blob/main/CSV_To_Spectrogram.ipynb) to convert the numeric features to spectrogram.
 
-3. **Train the Model**:
-    - Run [main.ipynb](http://_vscodecontentref_/7) to train the MViTv2 Vision Model and evaluate its performance.
+3. **Train the Model and Inference**:
+    - Run [Training_Inference.ipynb](https://github.com/yadvendersingh/credit-card-fraud-detection-vision/blob/main/Training_Inference.ipynb) to train the MViTv2 Vision Model and evaluate its performance.
 
 ## Results
 
-The model achieves a significant improvement in detecting credit card fraud compared to traditional techniques. Detailed metrics and visualizations are provided in the [main.ipynb](http://_vscodecontentref_/8) notebook.
+The model achieves a significant improvement in detecting credit card fraud compared to traditional techniques with ~19% improvement over XGBoost and Logistic Regression models and achieving 96.97% ROC AUC score
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](http://_vscodecontentref_/9) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/yadvendersingh/credit-card-fraud-detection-vision/blob/main/LICENSE) file for details.
 
 ## Acknowledgements
 
