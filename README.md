@@ -3,12 +3,13 @@
 This project aims to detect credit card fraud using computer vision techniques. The model leverages the MViTv2 Vision Model to classify defaulters, achieving a 20% improvement over traditional techniques.
 
 ## Project Structure
- ├── dataset.ipynb
- ├── LICENSE 
- ├── main.ipynb 
- ├── oversample.ipynb 
- ├── README.md
-
+ ```
+├── dataset.ipynb
+├── LICENSE 
+├── main.ipynb 
+├── oversample.ipynb 
+├── README.md
+```
 
 ## Notebooks
 
