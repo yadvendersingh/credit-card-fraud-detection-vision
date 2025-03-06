@@ -4,11 +4,12 @@ This project aims to detect credit card fraud using computer vision techniques. 
 
 ## Project Structure
  ```
-├── dataset.ipynb
+├── CSV_To_Spectrogram.ipynb
 ├── LICENSE 
-├── main.ipynb 
-├── oversample.ipynb 
+├── Oversample_CSV.ipynb 
+├── Training_Inference.ipynb 
 ├── README.md
+├── requirements.txt
 ```
 
 ## Notebooks
@@ -64,3 +65,4 @@ This project is licensed under the MIT License. See the [LICENSE](http://_vscode
 - [ADASYN](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.ADASYN.html)
 - [Librosa](https://librosa.org/)
 - [tqdm](https://tqdm.github.io/)
+- [Kaggle Dataset - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data/)
